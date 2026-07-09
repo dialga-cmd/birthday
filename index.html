@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Taiyaba Raza</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Outfit:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Intro Screen -->
+    <div id="intro-screen">
+        <h1 class="intro-text">Here's something for you ❤️</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <div id="petals-container"></div>
+
+        <header class="hero">
+            <h1 class="hero-title">Happy {age} Birthday</h1>
+            <h2 class="hero-subtitle">{name}</h2>
+            <p class="hero-message">Wishing you a day filled with love, joy, and unforgettable moments.</p>
+        </header>
+
+        <section class="love-letter">
+            <div class="letter-paper">
+                <h3 class="letter-greeting">My Dearest {name},</h3>
+                <p class="letter-body">
+                    On this special day, as you turn {age} today, I want you to know how incredibly special you are to me
+                    and how much joy you bring to my life. You have always been here for me, supporting me on every
+                    stupid decision I have made until now, and showing me the correct way. You've always been here for
+                    me no matter
+                    what I go through; you're always here with me, like a soul to a body. No matter what I do, no
+                    matter what I say, or how much I tease you, you have never left my side, and I am really glad to
+                    have
+                    you in my life. You're really special to me, and always will be. Things
+                    might or might not be the way we want them to be, and life might take some turns we don't expect,
+                    but trust me on this one: no matter what happens in your life, no matter how irritated you are,
+                    no matter what you are going through, no matter whether you need someone with you to help you, to be
+                    next to you, or just to sit beside you and hear you out—I don't care, I'll always be here for you.
+                    Even if you
+                    don't want anyone around you, I'll still be here. Maybe not right in front of you because that might
+                    annoy
+                    you, but I'll be in the shadows, always watching over you, making sure the smile I love so much
+                    never leaves your beautiful face.<br><br>
+                    Happy Birthday ❤️
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-grid">
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="1.jpeg" alt="You" class="gallery-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&q=80&w=400&h=500'">
+                    </div>
+                    <div class="caption-container">{comment}</div>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="2.jpeg" alt="You" class="gallery-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&q=80&w=400&h=500'">
+                    </div>
+                    <div class="caption-container">{comment}</div>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="3.jpeg" alt="You" class="gallery-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1474552226712-ac0f0961a954?auto=format&fit=crop&q=80&w=400&h=500'">
+                    </div>
+                    <div class="caption-container">{comment}</div>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="4.jpeg" alt="You" class="gallery-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&q=80&w=400&h=500'">
+                    </div>
+                    <div class="caption-container">{comment}</div>
+                </div>
+                <div class="image-card">
+                    <div class="image-wrapper">
+                        <img src="5.png" alt="You" class="gallery-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1501901609772-df0848060b33?auto=format&fit=crop&q=80&w=400&h=500'">
+                    </div>
+                    <div class="caption-container">{comment}</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="birthday-footer">
+            <p class="footer-message">Happy Birthday, My Princess ❤️</p>
+            <div class="footer-divider">✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦</div>
+        </footer>
+
+        <!-- Music Toggle -->
+        <button id="music-toggle" class="music-btn">
+            🎵 Play Music
+        </button>
+        <audio id="bg-music" loop>
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
